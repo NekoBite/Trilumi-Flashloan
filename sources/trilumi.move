@@ -1,12 +1,12 @@
-module apinaddr::arc {
+module trilumiaddr::arc {
     use std::signer;
-    use apinaddr::arc_coin;
+    use trilumiaddr::arc_coin;
     use aptos_framework::managed_coin;
     use aptos_framework::coin;
     use aptos_framework::aptos_coin::AptosCoin;
     use aptos_framework::timestamp;
 
-    const MODULE_ADMIN: address = @apinaddr;
+    const MODULE_ADMIN: address = @trilumiaddr;
 
     const NOT_ADMIN_PEM: u64 = 0;
     const COIN_NOT_EXIST: u64 = 1;
